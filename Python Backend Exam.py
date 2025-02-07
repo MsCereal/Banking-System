@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     # Create a new account
     customer_id = 1
-    customer = Customer(customer_id, "Chelsea Purificacion", "chelsea@gmail.com", "0923232321")
+    customer = Customer(customer_id, "Ace Deym", "ace@gmail.com", "0923232321")
     account = create_account_use_case.create_account(customer.customer_id, customer.name, customer.email, customer.phone_number)
     print(f"Account Created: {account.account_number}, Balance: {account.get_balance()}\n")
 
